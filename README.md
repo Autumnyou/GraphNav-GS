@@ -3,6 +3,7 @@
 **Heterogeneous Graph Abstraction of Gaussian Splatting Scenes for GNN-Guided Path Search**
 
 GraphNav-GS is a planning framework that enables safe and efficient UAV navigation in 3D Gaussian Splatting (3DGS) scenes. Instead of planning directly on millions of Gaussian primitives, it reorganizes the scene into a structured, uncertainty-aware graph and performs learned heuristic search on that graph.
+This paper is currently being submitted to The Visual Computer. The complete code will be made public upon acceptance.
 
 ## What It Does
 
