@@ -19,14 +19,6 @@ Conventional planners typically reduce a 3DGS scene to a binary occupancy map, d
 
 Pre-trained GAT checkpoints for all three scenes are in `checkpoints/`. Deterministic start-goal query lists are in `data/`. Scene `.ply` files are in `data/`.
 
-```bash
-# Full baseline comparison (50 queries, matched conditions)
-python run_splatnav_style.py --scene stonehenge --mode baseline \
-  --checkpoint checkpoints/gat_stonehenge.pth \
-  --neural_astar_checkpoint checkpoints/neural_astar_stonehenge.pth \
-  --device cuda --num_trials 50
-```
-
 
 ## License
 
